@@ -34,3 +34,5 @@ function valorFinal (){
 valorFinal()
 
 console.log(valorTotal);
+
+
