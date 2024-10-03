@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+h2 {
+    color: #007bff;
+    margin: 20px 0;
+}
+
+.promociones {
+    background-color: #e8f4ff;
+    border: 1px solid #007bff;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+}
+
+.promociones p {
+    margin: 5px 0;
+    font-weight: bold;
+    color: #333;
+}
+
+.formulario {
+    margin: 20px 0;
+    padding: 20px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}

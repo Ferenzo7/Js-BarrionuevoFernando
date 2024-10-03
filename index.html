@@ -1,28 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="">
-    <title>Curso De Js</title>
+    <title>Calculador de Vuelos</title>
+    <link rel="stylesheet" href="./Css/styles.css"> <!-- Añadimos el archivo CSS -->
 </head>
 
 <body>
-    <header>
-        <h1>Curso De Js</h1>
-        <h2>Alumno: Fernando Barrionuevo</h2>
-    </header>
-    <main>
+    <h1>Bar Vuelos</h1>
 
-    </main>
-    <footer>
+    <h2>Selecciona tu destino de vuelo</h2>
 
-    </footer>
+    <div class="promociones">
+        <h2>Destinos en promoción</h2>
+        <p>España</p>
+        <p>Rusia</p>
+        <p>Inglaterra</p>
+        <p>Portugal</p>
+    </div>
 
+    <div class="formulario">
+        <label for="destino">Destino:</label>
+        <input type="text" id="destino" placeholder="Escribe el destino">
+        <button id="calcular">Calcular Precio</button>
+        <p id="resultado"></p>
+    </div>
 
-
-    <script src="JS/main.js"></script>
+    <script src="./JS/main.js"></script>
 </body>
 
 </html>
